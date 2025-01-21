@@ -6,49 +6,55 @@
 }
 
 .box1 {
+    transition: background-color 2s;
     background-color: lightblue;
 }
 
-/* .box1:hover {
+.box1:hover {
     background-color: lightcoral;
-} */
+}
 
 .box2 {
+    transition : transform 0.5s, width 2s ease, height 2s ease;
     background-color: lightgreen;
 }
 
-/* .box2:hover {
-    transform: rotate(45deg);
-} */
+.box2:hover {
+    width: 10000px;
+    height: 10000px;
+    transform: rotate(9999999deg);
+}
 
 .box3 {
     background-color: rgb(246, 246, 156);
+    transition:width 100s ease, height 3s ease, background-color 2s ease;
 }
 
-/* .box3:hover {
-    width: 200px;
+.box3:hover {
+    width: 200000000px;
     height: 200px;
-    background-color: lightsalmon;
-} */
+    background-color: rgb(85, 53, 201);
+}
 
 .box4 {
     background-color: lightcyan;
-   /* transition: transform 2s ease; */
+   transition: transform 2s ease;
 }
 
 .box4:hover {
-    transform: translateX(200px);
+    transform: translateX(2000px) translateY(2000px);
 }
 
 .box5 {
     background-color: lightpink;
+    transition: width 0.5s ease, height 0.5s ease, background-color 2s ease;
 }
 
-/* .box5:hover {
+.box5:hover {
     width: 200px;
     height: 200px;
     background-color: lightseagreen;
-} */
+}
 
 p {
     font-size: 20px;
